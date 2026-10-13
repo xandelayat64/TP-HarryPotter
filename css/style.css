@@ -212,3 +212,62 @@ header ul {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.character.gryffindor:hover img {
+    border-color: #ae0001;
+}
+
+.character.gryffindor:hover h3 {
+    color: #ae0001;
+}
+
+.character.gryffindor:hover p {
+    color: #ae0001;
+}
+
+.character.slytherin:hover img {
+    border-color: #2a623d;
+}
+
+.character.slytherin:hover h3 {
+    color: #2a623d;
+}
+
+.character.slytherin:hover p {
+    color: #2a623d;
+}
+
+.character.hufflepuff:hover img {
+    border-color: #ecb939;
+}
+
+.character.hufflepuff:hover h3 {
+    color: #ecb939;
+}
+
+.character.hufflepuff:hover p {
+    color: #ecb939;
+}
+
+.character.ravenclaw:hover img {
+    border-color: #222f5b;
+}
+
+.character.ravenclaw:hover h3 {
+    color: #222f5b;
+}
+
+.character.ravenclaw:hover p {
+    color: #222f5b;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--DarkGrey, #3a3a3a);
+}
+
+a {
+    text-decoration: none;
+}
