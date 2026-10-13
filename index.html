@@ -7,64 +7,90 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Wiki Harry Potter</title>
+    <title>TON PRENOM NOM - Partiel Harry Potter</title>
 </head>
 
 <body>
 
-    <header class="header">
-        <div class="header__right">
-            <a href="index.html">
-                <img src="./images/logo.png" alt="Logo Harry Potter">
-            </a>
-        </div>
-
-        <div class="header__left">
-            <h1>Wiki Harry Potter</h1>
-
-            <button class="menu-toggle"
-                    type="button"
-                    aria-label="Ouvrir le menu">
-                <img src="./images/menu.png" alt="">
-            </button>
-
-        </div>
-    </header>
-
     <main>
+        <header class="header">
+            <div class="header__right">
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="Logo Harry Potter">
+                </a>
+            </div>
+
+            <div class="header__left">
+                <h1>Xan DELAYAT- Wiki Harry Potter</h1>
+
+                <button class="menu-toggle" type="button" aria-label="Ouvrir le menu">
+                    <img src="./images/menu.png" alt="">
+                </button>
+
+                <ul class="nav-menu">
+                    <li><a href="#students">Students</a></li>
+                    <li><a href="#staff">Staff</a></li>
+                    <li><a href="#houses">Houses</a></li>
+                </ul>
+            </div>
+        </header>
+
         <section id="houses">
-            <h2>HOUSES</h2>
+            <h3>HOUSES</h3>
 
             <div class="houses">
-                <img src="./images/gryffindor.png"
-                     alt="Gryffindor"
-                     title="Gryffondor">
-
-                <img src="./images/hufflepuff.png"
-                     alt="Hufflepuff"
-                     title="Poufsouffle">
-
-                <img src="./images/ravenclaw.png"
-                     alt="Ravenclaw"
-                     title="Serdaigle">
-
-                <img src="./images/slytherin.png"
-                     alt="Slytherin"
-                     title="Serpentard">
+                <img src="./images/Gryffindor.png" alt="Gryffindor">
+                <img src="./images/Hufflepuff.png" alt="Hufflepuff">
+                <img src="./images/Ravenclaw.png" alt="Ravenclaw">
+                <img src="./images/Slytherin.png" alt="Slytherin">
             </div>
         </section>
 
-        <section id="characters">
-            <h2>CHARACTERS</h2>
+        <section class="filters">
+            <h3>Search and filters characters</h3>
 
-            <div class="characters" id="characters-list">
-                <p>Persos</p>
+            <input
+                type="text"
+                id="search"
+                placeholder="Rechercher un personnage..."
+                aria-label="Rechercher par nom"
+            >
+
+            <label for="sort">Order by:</label>
+            <select id="sort">
+                <option value="name">Alphabetical order</option>
+                <option value="age">Age</option>
+            </select>
+
+            <label for="alive">Statut:</label>
+            <select id="alive">
+                <option value="all">Tous les personnages</option>
+                <option value="alive">Vivants</option>
+                <option value="dead">Morts</option>
+            </select>
+
+            <button id="reset-filters" type="button">
+                Reset
+            </button>
+        </section>
+
+        <section id="students">
+            <h3>Students</h3>
+            <div class="characters" id="students-list">
+                <p>Loading...</p>
+            </div>
+        </section>
+
+        <section id="staff">
+            <h3>Staff</h3>
+            <div class="characters" id="staff-list">
+                <p>Loading...</p>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Wiki Harry Potter</p>
+        <p>Wiki Harry Potter is a FANDOM community</p>
     </footer>
 
     <script src="./script.js"></script>
