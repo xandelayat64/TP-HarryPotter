@@ -271,3 +271,51 @@ h5 {
 a {
     text-decoration: none;
 }
+
+.character-card.Gryffindor:hover img {
+    border-color: #AE0001;
+}
+
+.character-card.Gryffindor:hover h4 {
+    color: #AE0001;
+}
+
+.character-card.Gryffindor:hover p {
+    color: #AE0001;
+}
+
+.character-card.Slytherin:hover img {
+    border-color: #2A623D;
+}
+
+.character-card.Slytherin:hover h4 {
+    color: #2A623D;
+}
+
+.character-card.Slytherin:hover p {
+    color: #2A623D;
+}
+
+.character-card.Ravenclaw:hover img {
+    border-color: #222F5B;
+}
+
+.character-card.Ravenclaw:hover h4 {
+    color: #222F5B;
+}
+
+.character-card.Ravenclaw:hover p {
+    color: #222F5B;
+}
+
+.character-card.Hufflepuff:hover img {
+    border-color: #ECB939;
+}
+
+.character-card.Hufflepuff:hover h4 {
+    color: #ECB939;
+}
+
+.character-card.Hufflepuff:hover p {
+    color: #ECB939;
+}

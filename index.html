@@ -1,77 +1,73 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-     <title>Xan DELAYAT - Partiel Harry Potter</title>
-  </head>
-  <body>
-   
-    <main>
-       <header class="header">
-      <div class="header__right">
-        <img src="./images/logo.png" />
-      </div>
-      <div class="header__left">
-        <h1>Xan DELAYAT - Wiki Harry Potter</h1>
-   
-        <img src="./images/menu.png" alt="" srcset="" />
-      </div>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Wiki Harry Potter</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__right">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="Logo Harry Potter">
+            </a>
+        </div>
+
+        <div class="header__left">
+            <h1>Wiki Harry Potter</h1>
+
+            <button class="menu-toggle"
+                    type="button"
+                    aria-label="Ouvrir le menu">
+                <img src="./images/menu.png" alt="">
+            </button>
+
+        </div>
     </header>
-      <section>
-        <h3>HOUSES</h3>
-        <div class="houses">
-          <img src="./images/gryffindor.png" alt="Gryffindor" />
-          <img src="./images/hufflepuff.png" alt="Hufflepuff" />
-          <img src="./images/ravenclaw.png" alt="Ravenclaw" />
-          <img src="./images/slytherin.png" alt="Slytherin" />
-        </div>
-      </section>
-      <section>
-        <h3>Characters</h3>
-        <div class="characters">
-          <div class="character gryffindor">
-            <a href="details.html">
-          <img src="./images/harry.webp" alt="Harry Potter" />
-          <p>Harry Potter</p>
-          </a>
-          </div>
-          <div class="character gryffindor">
-          <img src="./images/hermione.webp" alt="Hermione Granger" />
-          <p>Hermione Granger</p>
-          </div>
 
-          <div class="character gryffindor">
-          <img src="./images/ron.webp" alt="Ron Weasley" />   
-          <p>Ron Weasley</p>
-          </div>
+    <main>
+        <section id="houses">
+            <h2>HOUSES</h2>
 
-          <div class="character slytherin">
-          <img src="./images/draco.webp" alt="Draco Malfoy" />
-          <p>Draco Malfoy</p>
-          </div>
-          <div class="character ravenclaw">
-          <img src="./images/cho.webp" alt="Cho Chang" />
-          <p>Cho Chang</p>
-          </div>
-          <div class="character slytherin">
-          <img src="./images/snape.webp" alt="Severus Snape" />
-          <p>Severus Snape</p>
-          </div>
-          <div class="character gryffindor">
-          <img src="./images/mcgonagall.webp" alt="Minerva McGonagall" />
-          <p>Minerva McGonagall</p>
-          </div>
-          <div class="character hufflepuff">
-          <img src="./images/cedric.webp" alt="Cedric Diggory" />
-          <p>Cedric Diggory</p>
-          </div>
-        </div>
-      </section>
+            <div class="houses">
+                <img src="./images/gryffindor.png"
+                     alt="Gryffindor"
+                     title="Gryffondor">
+
+                <img src="./images/hufflepuff.png"
+                     alt="Hufflepuff"
+                     title="Poufsouffle">
+
+                <img src="./images/ravenclaw.png"
+                     alt="Ravenclaw"
+                     title="Serdaigle">
+
+                <img src="./images/slytherin.png"
+                     alt="Slytherin"
+                     title="Serpentard">
+            </div>
+        </section>
+
+        <section id="characters">
+            <h2>CHARACTERS</h2>
+
+            <div class="characters" id="characters-list">
+                <p>Persos</p>
+            </div>
+        </section>
     </main>
+
     <footer>
-      <p>Wiki Happy Potter is a FANDOM community</p>
+        <p>Wiki Harry Potter</p>
     </footer>
-  </body>
+
+    <script src="./script.js"></script>
+
+</body>
 </html>
