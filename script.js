@@ -7,7 +7,7 @@ let selectedHouse = "";
 fetch("https://hp-api.onrender.com/api/characters")
     .then(response => response.json())
     .then(data => {
-        characters = data.slice(0, 20);  //limiter à 20 perso
+        characters = data;  //limiter à 20 perso
 
         displayCharacters(characters);
     })

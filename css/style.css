@@ -319,3 +319,7 @@ a {
 .character-card.Hufflepuff:hover p {
     color: #ECB939;
 }
+
+.perso__left img.dead {
+    filter: grayscale(100%);
+}
