@@ -34,14 +34,12 @@ function displayCharacters() {
         );
     }
 
-    // Filtrer par maison
     if (selectedHouse !== "") {
         personnages = personnages.filter(personnage =>
             personnage.house === selectedHouse
         );
     }
 
-    // Filtrer les personnages vivants ou morts
     if (aliveSelect && aliveSelect.value === "alive") {
         personnages = personnages.filter(personnage =>
             personnage.alive === true
